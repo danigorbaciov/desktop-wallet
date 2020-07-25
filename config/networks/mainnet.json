@@ -1,15 +1,15 @@
 {
   "id": "ark.mainnet",
-  "name": "ARK Mainnet",
-  "title": "ARK Mainnet",
-  "server": "https://explorer.ark.io:8443",
-  "description": "The ARK Mainnet should be chosen in most cases.",
+  "name": "Qredit",
+  "title": "Qredit",
+  "server": "http://159.69.89.111:4103",
+  "description": "Qredit",
   "imagePath": "networks/ark.png",
   "apiVersion": 2,
-  "slip44": "111",
+  "slip44": "1",
   "market": {
     "enabled": true,
-    "ticker": "ARK"
+    "ticker": "XQR"
   },
   "feeStatistics": [
     {
@@ -52,13 +52,13 @@
   "vendorField": {
     "maxLength": 255
   },
-  "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
-  "explorer": "https://explorer.ark.io",
-  "knownWalletsUrl": "https://raw.githubusercontent.com/ArkEcosystem/common/master/mainnet/known-wallets.json",
-  "token": "ARK",
-  "subunit": "arktoshi",
-  "symbol": "Ѧ",
+  "nethash": "5e67037fd290ba7ab378e84a591d251c46eb9770eb134983771fd602233bf193",
+  "explorer": "https://explorer.qredit.io/#",
+  "knownWalletsUrl": "https://raw.githubusercontent.com/qredit/common/master/mainnet/known-wallets.json",
+  "token": "XQR",
+  "subunit": "qretoshi",
+  "symbol": "XQR",
   "fractionDigits": 8,
-  "version": 23,
-  "wif": 170
+  "version": 58,
+  "wif": 187
 }

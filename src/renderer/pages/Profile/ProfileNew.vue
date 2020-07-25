@@ -296,9 +296,7 @@ export default {
     },
     priceApis () {
       return {
-        coingecko: 'CoinGecko',
-        cryptocompare: 'CryptoCompare',
-        coincap: 'CoinCap'
+        coingecko: 'CoinGecko'
       }
     },
     defaultNetworks () {
