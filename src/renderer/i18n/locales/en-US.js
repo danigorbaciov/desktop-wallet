@@ -1440,5 +1440,30 @@ export default {
     DELETE: 'Delete',
     NO_DELETE: 'Ledger wallets cannot be deleted',
     RENAME: 'Rename'
+  },
+  WALLET_TOKENS: {
+    NAME: 'Token Name',
+    SYMBOL: 'Token Symbol',
+    ID: 'Token ID',
+    BALANCE: 'Balance'
+  },
+  QAE1_TYPES: {
+    GENESIS: 'Create new token (Genesis)',
+    SEND: 'Send tokens (Send)'
+  },
+  QAE: {
+    TOKENID_LABEL: 'Token to send',
+    URI_HELPER: 'URL format, max 32 characters',
+    URI_LABEL: 'Token URI (optional)',
+    NOTE_HELPER: 'max 32 characters',
+    NOTE_LABEL: 'Token note (optional)',
+    NAME_HELPER: '3-24 characters',
+    NAME_LABEL: 'Token name',
+    AMOUNT_HELPER: 'total number of tokens',
+    AMOUNT_LABEL: 'Token amount',
+    DECIMALS_HELPER: 'single digit, 0..8',
+    DECIMALS_LABEL: 'Token decimals',
+    SYMBOL_HELPER: 'all caps, 3-8 characters',
+    SYMBOL_LABEL: 'Token Symbol (Ticker)'
   }
 }

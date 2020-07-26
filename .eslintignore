@@ -1,1 +1,2 @@
 tailwind.js
+src/renderer/components/Transaction/TransactionForm/TransactionFormToken.vue

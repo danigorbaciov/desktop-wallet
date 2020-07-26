@@ -17,6 +17,7 @@ import TransactionFormMultiSign from './TransactionFormMultiSign'
 import TransactionFormMultiSignature from './TransactionFormMultiSignature'
 import TransactionFormTransfer from './TransactionFormTransfer'
 import TransactionFormVote from './TransactionFormVote'
+import TransactionFormToken from './TransactionFormToken'
 import TransactionFormSecondSignature from './TransactionFormSecondSignature'
 import TransactionFormBusiness from './TransactionFormBusiness'
 import TransactionFormBridgechain from './TransactionFormBridgechain'
@@ -32,6 +33,7 @@ export default {
     TransactionFormMultiSignature,
     TransactionFormTransfer,
     TransactionFormVote,
+    TransactionFormToken,
     TransactionFormSecondSignature,
     ...TransactionFormBusiness,
     ...TransactionFormBridgechain

@@ -20,6 +20,7 @@ export * from './WalletSidebar'
 export * from './WalletSignVerify'
 export * from './WalletStatistics'
 export * from './WalletTransactions'
+export * from './WalletTokens'
 
 // Needs exporting after the rest
 export * from './WalletMultiSignature'

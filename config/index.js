@@ -63,7 +63,8 @@ exports.TRANSACTION_TYPES = {
     DELEGATE_RESIGNATION: 7,
     HTLC_LOCK: 8,
     HTLC_CLAIM: 9,
-    HTLC_REFUND: 10
+    HTLC_REFUND: 10,
+    TOKEN: 60
   },
 
   GROUP_2: {
